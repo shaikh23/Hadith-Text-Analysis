@@ -1,0 +1,513 @@
+{
+  "dataset": "bukhari_eng_pilot",
+  "aggregate": {
+    "k": 5,
+    "query_count": 30,
+    "hit_at_k": 0.7,
+    "mean_precision_at_k": 0.3267,
+    "mean_recall_at_k": 0.5444,
+    "mrr": 0.6139,
+    "threshold_pass": true
+  },
+  "per_query": [
+    {
+      "query": "intention behind actions",
+      "expected_ids": [
+        "sahih_al_bukhari:2:26",
+        "sahih_al_bukhari:2:54",
+        "sahih_al_bukhari:2:55"
+      ],
+      "ranked_ids": [
+        "sahih_al_bukhari:2:55",
+        "sahih_al_bukhari:2:54",
+        "sahih_al_bukhari:2:26",
+        "sahih_al_bukhari:1:1",
+        "sahih_al_bukhari:2:31"
+      ],
+      "hit_at_k": 1.0,
+      "precision_at_k": 0.6,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query": "kindness to parents",
+      "expected_ids": [
+        "sahih_al_bukhari:4:174",
+        "sahih_al_bukhari:4:222",
+        "sahih_al_bukhari:4:244"
+      ],
+      "ranked_ids": [
+        "sahih_al_bukhari:1:2",
+        "sahih_al_bukhari:2:14",
+        "sahih_al_bukhari:2:15",
+        "sahih_al_bukhari:2:30",
+        "sahih_al_bukhari:3:92"
+      ],
+      "hit_at_k": 0.0,
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "query": "controlling anger",
+      "expected_ids": [
+        "sahih_al_bukhari:2:20",
+        "sahih_al_bukhari:3:92",
+        "sahih_al_bukhari:3:93"
+      ],
+      "ranked_ids": [
+        "sahih_al_bukhari:3:92",
+        "sahih_al_bukhari:3:93",
+        "sahih_al_bukhari:2:20",
+        "sahih_al_bukhari:3:91",
+        "sahih_al_bukhari:3:123"
+      ],
+      "hit_at_k": 1.0,
+      "precision_at_k": 0.6,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query": "honest business",
+      "expected_ids": [
+        "sahih_al_bukhari:1:7",
+        "sahih_al_bukhari:2:33",
+        "sahih_al_bukhari:3:118"
+      ],
+      "ranked_ids": [
+        "sahih_al_bukhari:3:118",
+        "sahih_al_bukhari:1:7",
+        "sahih_al_bukhari:2:34",
+        "sahih_al_bukhari:3:106",
+        "sahih_al_bukhari:3:107"
+      ],
+      "hit_at_k": 1.0,
+      "precision_at_k": 0.4,
+      "recall_at_k": 0.6667,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query": "treatment of neighbors",
+      "expected_ids": [
+        "sahih_al_bukhari:2:17",
+        "sahih_al_bukhari:3:127",
+        "sahih_al_bukhari:4:234"
+      ],
+      "ranked_ids": [
+        "sahih_al_bukhari:3:89"
+      ],
+      "hit_at_k": 0.0,
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "query": "seeking knowledge",
+      "expected_ids": [
+        "sahih_al_bukhari:3:120",
+        "sahih_al_bukhari:3:122",
+        "sahih_al_bukhari:3:75"
+      ],
+      "ranked_ids": [
+        "sahih_al_bukhari:3:122",
+        "sahih_al_bukhari:3:75",
+        "sahih_al_bukhari:3:120",
+        "sahih_al_bukhari:3:68",
+        "sahih_al_bukhari:3:80"
+      ],
+      "hit_at_k": 1.0,
+      "precision_at_k": 0.6,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query": "virtue of prayer",
+      "expected_ids": [
+        "sahih_al_bukhari:4:135",
+        "sahih_al_bukhari:4:208",
+        "sahih_al_bukhari:4:230"
+      ],
+      "ranked_ids": [
+        "sahih_al_bukhari:4:177",
+        "sahih_al_bukhari:4:214",
+        "sahih_al_bukhari:4:230",
+        "sahih_al_bukhari:4:176",
+        "sahih_al_bukhari:4:135"
+      ],
+      "hit_at_k": 1.0,
+      "precision_at_k": 0.4,
+      "recall_at_k": 0.6667,
+      "reciprocal_rank": 0.3333
+    },
+    {
+      "query": "charity and generosity",
+      "expected_ids": [
+        "sahih_al_bukhari:1:6",
+        "sahih_al_bukhari:2:25",
+        "sahih_al_bukhari:2:46"
+      ],
+      "ranked_ids": [
+        "sahih_al_bukhari:1:6",
+        "sahih_al_bukhari:2:25",
+        "sahih_al_bukhari:2:46",
+        "sahih_al_bukhari:2:53",
+        "sahih_al_bukhari:2:57"
+      ],
+      "hit_at_k": 1.0,
+      "precision_at_k": 0.6,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query": "justice in leadership",
+      "expected_ids": [
+        "sahih_al_bukhari:2:32",
+        "sahih_al_bukhari:4:196",
+        "sahih_al_bukhari:4:241"
+      ],
+      "ranked_ids": [],
+      "hit_at_k": 0.0,
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "query": "patience in hardship",
+      "expected_ids": [
+        "sahih_al_bukhari:3:122",
+        "sahih_al_bukhari:4:196",
+        "sahih_al_bukhari:4:241"
+      ],
+      "ranked_ids": [
+        "sahih_al_bukhari:3:122"
+      ],
+      "hit_at_k": 1.0,
+      "precision_at_k": 0.2,
+      "recall_at_k": 0.3333,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query": "repentance after sin",
+      "expected_ids": [
+        "sahih_al_bukhari:2:41",
+        "sahih_al_bukhari:3:121",
+        "sahih_al_bukhari:4:160"
+      ],
+      "ranked_ids": [
+        "sahih_al_bukhari:1:7",
+        "sahih_al_bukhari:3:132",
+        "sahih_al_bukhari:4:178",
+        "sahih_al_bukhari:3:121",
+        "sahih_al_bukhari:4:206"
+      ],
+      "hit_at_k": 1.0,
+      "precision_at_k": 0.2,
+      "recall_at_k": 0.3333,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "query": "rights of spouse",
+      "expected_ids": [
+        "sahih_al_bukhari:2:17",
+        "sahih_al_bukhari:3:127",
+        "sahih_al_bukhari:4:234"
+      ],
+      "ranked_ids": [
+        "sahih_al_bukhari:4:167",
+        "sahih_al_bukhari:4:168",
+        "sahih_al_bukhari:2:44",
+        "sahih_al_bukhari:4:154",
+        "sahih_al_bukhari:4:153"
+      ],
+      "hit_at_k": 0.0,
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "query": "maintaining kinship ties",
+      "expected_ids": [
+        "sahih_al_bukhari:2:12",
+        "sahih_al_bukhari:2:16",
+        "sahih_al_bukhari:3:111"
+      ],
+      "ranked_ids": [
+        "sahih_al_bukhari:3:111"
+      ],
+      "hit_at_k": 1.0,
+      "precision_at_k": 0.2,
+      "recall_at_k": 0.3333,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query": "etiquette of speech",
+      "expected_ids": [
+        "sahih_al_bukhari:1:4",
+        "sahih_al_bukhari:1:7",
+        "sahih_al_bukhari:3:59"
+      ],
+      "ranked_ids": [
+        "sahih_al_bukhari:3:59",
+        "sahih_al_bukhari:1:4",
+        "sahih_al_bukhari:1:7"
+      ],
+      "hit_at_k": 1.0,
+      "precision_at_k": 0.6,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query": "forgiveness and mercy",
+      "expected_ids": [
+        "sahih_al_bukhari:2:58",
+        "sahih_al_bukhari:3:118",
+        "sahih_al_bukhari:3:66"
+      ],
+      "ranked_ids": [
+        "sahih_al_bukhari:3:66",
+        "sahih_al_bukhari:3:118",
+        "sahih_al_bukhari:4:212",
+        "sahih_al_bukhari:2:58",
+        "sahih_al_bukhari:3:122"
+      ],
+      "hit_at_k": 1.0,
+      "precision_at_k": 0.6,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query": "death and accountability",
+      "expected_ids": [
+        "sahih_al_bukhari:3:100",
+        "sahih_al_bukhari:3:81",
+        "sahih_al_bukhari:3:85"
+      ],
+      "ranked_ids": [
+        "sahih_al_bukhari:3:80",
+        "sahih_al_bukhari:3:85",
+        "sahih_al_bukhari:3:100",
+        "sahih_al_bukhari:3:81",
+        "sahih_al_bukhari:3:128"
+      ],
+      "hit_at_k": 1.0,
+      "precision_at_k": 0.6,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "query": "warning against lying",
+      "expected_ids": [
+        "sahih_al_bukhari:3:106",
+        "sahih_al_bukhari:3:107",
+        "sahih_al_bukhari:3:108"
+      ],
+      "ranked_ids": [
+        "sahih_al_bukhari:3:106",
+        "sahih_al_bukhari:3:107",
+        "sahih_al_bukhari:3:108",
+        "sahih_al_bukhari:3:110",
+        "sahih_al_bukhari:1:7"
+      ],
+      "hit_at_k": 1.0,
+      "precision_at_k": 0.6,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query": "trust and amanah",
+      "expected_ids": [
+        "sahih_al_bukhari:2:33",
+        "sahih_al_bukhari:2:34",
+        "sahih_al_bukhari:4:247"
+      ],
+      "ranked_ids": [
+        "sahih_al_bukhari:2:33"
+      ],
+      "hit_at_k": 1.0,
+      "precision_at_k": 0.2,
+      "recall_at_k": 0.3333,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query": "gratitude to Allah",
+      "expected_ids": [
+        "sahih_al_bukhari:2:44",
+        "sahih_al_bukhari:4:142",
+        "sahih_al_bukhari:4:193"
+      ],
+      "ranked_ids": [
+        "sahih_al_bukhari:4:211",
+        "sahih_al_bukhari:3:75",
+        "sahih_al_bukhari:4:193",
+        "sahih_al_bukhari:4:171",
+        "sahih_al_bukhari:4:172"
+      ],
+      "hit_at_k": 1.0,
+      "precision_at_k": 0.2,
+      "recall_at_k": 0.3333,
+      "reciprocal_rank": 0.3333
+    },
+    {
+      "query": "remembrance and supplication",
+      "expected_ids": [
+        "sahih_al_bukhari:2:17",
+        "sahih_al_bukhari:4:211",
+        "sahih_al_bukhari:5:250"
+      ],
+      "ranked_ids": [],
+      "hit_at_k": 0.0,
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "query": "pilgrimage guidance",
+      "expected_ids": [
+        "sahih_al_bukhari:2:45",
+        "sahih_al_bukhari:2:8",
+        "sahih_al_bukhari:3:83"
+      ],
+      "ranked_ids": [
+        "sahih_al_bukhari:2:8",
+        "sahih_al_bukhari:2:45",
+        "sahih_al_bukhari:3:83",
+        "sahih_al_bukhari:3:84",
+        "sahih_al_bukhari:3:124"
+      ],
+      "hit_at_k": 1.0,
+      "precision_at_k": 0.6,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query": "fasting etiquette",
+      "expected_ids": [
+        "sahih_al_bukhari:2:37",
+        "sahih_al_bukhari:2:46",
+        "sahih_al_bukhari:2:8"
+      ],
+      "ranked_ids": [
+        "sahih_al_bukhari:2:46",
+        "sahih_al_bukhari:2:8",
+        "sahih_al_bukhari:2:37",
+        "sahih_al_bukhari:2:38",
+        "sahih_al_bukhari:2:49"
+      ],
+      "hit_at_k": 1.0,
+      "precision_at_k": 0.6,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query": "debt repayment urgency",
+      "expected_ids": [],
+      "ranked_ids": [],
+      "hit_at_k": 0.0,
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "query": "fulfilling contracts",
+      "expected_ids": [],
+      "ranked_ids": [],
+      "hit_at_k": 0.0,
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "query": "teaching beneficial knowledge",
+      "expected_ids": [
+        "sahih_al_bukhari:3:120",
+        "sahih_al_bukhari:3:68",
+        "sahih_al_bukhari:3:75"
+      ],
+      "ranked_ids": [
+        "sahih_al_bukhari:3:75",
+        "sahih_al_bukhari:3:120",
+        "sahih_al_bukhari:3:68",
+        "sahih_al_bukhari:3:80",
+        "sahih_al_bukhari:3:85"
+      ],
+      "hit_at_k": 1.0,
+      "precision_at_k": 0.6,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query": "prophetic character",
+      "expected_ids": [
+        "sahih_al_bukhari:2:30",
+        "sahih_al_bukhari:2:34"
+      ],
+      "ranked_ids": [],
+      "hit_at_k": 0.0,
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "query": "brotherhood in Islam",
+      "expected_ids": [
+        "sahih_al_bukhari:1:7",
+        "sahih_al_bukhari:3:74",
+        "sahih_al_bukhari:3:78"
+      ],
+      "ranked_ids": [
+        "sahih_al_bukhari:1:7",
+        "sahih_al_bukhari:3:74",
+        "sahih_al_bukhari:3:78",
+        "sahih_al_bukhari:3:69",
+        "sahih_al_bukhari:2:11"
+      ],
+      "hit_at_k": 1.0,
+      "precision_at_k": 0.6,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query": "conflict reconciliation",
+      "expected_ids": [],
+      "ranked_ids": [],
+      "hit_at_k": 0.0,
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "query": "judgment and testimony",
+      "expected_ids": [
+        "sahih_al_bukhari:2:17",
+        "sahih_al_bukhari:3:71",
+        "sahih_al_bukhari:4:211"
+      ],
+      "ranked_ids": [
+        "sahih_al_bukhari:3:71"
+      ],
+      "hit_at_k": 1.0,
+      "precision_at_k": 0.2,
+      "recall_at_k": 0.3333,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "query": "hellfire warning",
+      "expected_ids": [
+        "sahih_al_bukhari:2:16",
+        "sahih_al_bukhari:2:21",
+        "sahih_al_bukhari:3:107"
+      ],
+      "ranked_ids": [
+        "sahih_al_bukhari:3:107",
+        "sahih_al_bukhari:2:16",
+        "sahih_al_bukhari:2:21",
+        "sahih_al_bukhari:2:22",
+        "sahih_al_bukhari:2:29"
+      ],
+      "hit_at_k": 1.0,
+      "precision_at_k": 0.6,
+      "recall_at_k": 1.0,
+      "reciprocal_rank": 1.0
+    }
+  ]
+}

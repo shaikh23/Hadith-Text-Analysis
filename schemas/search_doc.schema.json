@@ -20,7 +20,10 @@
           "role": { "type": "string", "enum": ["primary", "secondary"] },
           "confidence": { "type": "number" },
           "evidence": { "type": "string" },
-          "review_status": { "type": "string" }
+          "review_status": { "type": "string" },
+          "reviewed_by": { "type": ["string", "null"] },
+          "reviewer_notes": { "type": ["string", "null"] },
+          "reviewed_at": { "type": ["string", "null"] }
         }
       }
     },

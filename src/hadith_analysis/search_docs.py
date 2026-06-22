@@ -27,6 +27,9 @@ def build_search_document(occurrence: dict[str, Any]) -> dict[str, Any]:
                 "confidence": theme["confidence"],
                 "evidence": theme["evidence"],
                 "review_status": theme["review_status"],
+                "reviewed_by": theme.get("reviewed_by"),
+                "reviewer_notes": theme.get("reviewer_notes"),
+                "reviewed_at": theme.get("reviewed_at"),
             }
             for theme in hadith_themes
         ],

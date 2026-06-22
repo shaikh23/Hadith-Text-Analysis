@@ -73,7 +73,12 @@
           "matched_keywords": {
             "type": "array",
             "items": { "type": "string" }
-          }
+          },
+          "reviewed_by": { "type": ["string", "null"] },
+          "reviewer_notes": { "type": ["string", "null"] },
+          "reviewed_at": { "type": ["string", "null"] },
+          "corrected_to_theme_id": { "type": ["string", "null"] },
+          "corrected_from_theme_id": { "type": ["string", "null"] }
         }
       }
     },

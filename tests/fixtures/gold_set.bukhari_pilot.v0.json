@@ -1,0 +1,422 @@
+{
+  "dataset": "bukhari_eng_pilot",
+  "status": "seed_needs_human_review",
+  "pool_size": 156,
+  "candidate_pool_ids": [
+    "sahih_al_bukhari:1:1",
+    "sahih_al_bukhari:1:2",
+    "sahih_al_bukhari:1:3",
+    "sahih_al_bukhari:1:4",
+    "sahih_al_bukhari:1:5",
+    "sahih_al_bukhari:1:6",
+    "sahih_al_bukhari:1:7",
+    "sahih_al_bukhari:2:8",
+    "sahih_al_bukhari:2:12",
+    "sahih_al_bukhari:2:14",
+    "sahih_al_bukhari:2:15",
+    "sahih_al_bukhari:2:16",
+    "sahih_al_bukhari:2:18",
+    "sahih_al_bukhari:2:20",
+    "sahih_al_bukhari:2:21",
+    "sahih_al_bukhari:2:22",
+    "sahih_al_bukhari:2:25",
+    "sahih_al_bukhari:2:26",
+    "sahih_al_bukhari:2:27",
+    "sahih_al_bukhari:2:28",
+    "sahih_al_bukhari:2:29",
+    "sahih_al_bukhari:2:30",
+    "sahih_al_bukhari:2:31",
+    "sahih_al_bukhari:2:33",
+    "sahih_al_bukhari:2:34",
+    "sahih_al_bukhari:2:36",
+    "sahih_al_bukhari:2:37",
+    "sahih_al_bukhari:2:38",
+    "sahih_al_bukhari:2:40",
+    "sahih_al_bukhari:2:41",
+    "sahih_al_bukhari:2:42",
+    "sahih_al_bukhari:2:43",
+    "sahih_al_bukhari:2:44",
+    "sahih_al_bukhari:2:45",
+    "sahih_al_bukhari:2:46",
+    "sahih_al_bukhari:2:47",
+    "sahih_al_bukhari:2:49",
+    "sahih_al_bukhari:2:50",
+    "sahih_al_bukhari:2:52",
+    "sahih_al_bukhari:2:53",
+    "sahih_al_bukhari:2:54",
+    "sahih_al_bukhari:2:55",
+    "sahih_al_bukhari:2:56",
+    "sahih_al_bukhari:2:57",
+    "sahih_al_bukhari:2:58",
+    "sahih_al_bukhari:3:59",
+    "sahih_al_bukhari:3:60",
+    "sahih_al_bukhari:3:63",
+    "sahih_al_bukhari:3:66",
+    "sahih_al_bukhari:3:67",
+    "sahih_al_bukhari:3:68",
+    "sahih_al_bukhari:3:69",
+    "sahih_al_bukhari:3:70",
+    "sahih_al_bukhari:3:71",
+    "sahih_al_bukhari:3:74",
+    "sahih_al_bukhari:3:75",
+    "sahih_al_bukhari:3:76",
+    "sahih_al_bukhari:3:78",
+    "sahih_al_bukhari:3:79",
+    "sahih_al_bukhari:3:80",
+    "sahih_al_bukhari:3:81",
+    "sahih_al_bukhari:3:82",
+    "sahih_al_bukhari:3:83",
+    "sahih_al_bukhari:3:84",
+    "sahih_al_bukhari:3:85",
+    "sahih_al_bukhari:3:86",
+    "sahih_al_bukhari:3:87",
+    "sahih_al_bukhari:3:88",
+    "sahih_al_bukhari:3:89",
+    "sahih_al_bukhari:3:90",
+    "sahih_al_bukhari:3:91",
+    "sahih_al_bukhari:3:92",
+    "sahih_al_bukhari:3:93",
+    "sahih_al_bukhari:3:96",
+    "sahih_al_bukhari:3:97",
+    "sahih_al_bukhari:3:99",
+    "sahih_al_bukhari:3:100",
+    "sahih_al_bukhari:3:101",
+    "sahih_al_bukhari:3:102",
+    "sahih_al_bukhari:3:103",
+    "sahih_al_bukhari:3:104",
+    "sahih_al_bukhari:3:106",
+    "sahih_al_bukhari:3:107",
+    "sahih_al_bukhari:3:108",
+    "sahih_al_bukhari:3:109",
+    "sahih_al_bukhari:3:110",
+    "sahih_al_bukhari:3:111",
+    "sahih_al_bukhari:3:116",
+    "sahih_al_bukhari:3:117",
+    "sahih_al_bukhari:3:118",
+    "sahih_al_bukhari:3:120",
+    "sahih_al_bukhari:3:122",
+    "sahih_al_bukhari:3:123",
+    "sahih_al_bukhari:3:124",
+    "sahih_al_bukhari:3:125",
+    "sahih_al_bukhari:3:128",
+    "sahih_al_bukhari:3:129",
+    "sahih_al_bukhari:3:130",
+    "sahih_al_bukhari:3:131",
+    "sahih_al_bukhari:3:134",
+    "sahih_al_bukhari:4:135",
+    "sahih_al_bukhari:4:136",
+    "sahih_al_bukhari:4:137",
+    "sahih_al_bukhari:4:138",
+    "sahih_al_bukhari:4:139",
+    "sahih_al_bukhari:4:141",
+    "sahih_al_bukhari:4:142",
+    "sahih_al_bukhari:4:143",
+    "sahih_al_bukhari:4:146",
+    "sahih_al_bukhari:4:159",
+    "sahih_al_bukhari:4:160",
+    "sahih_al_bukhari:4:163",
+    "sahih_al_bukhari:4:164",
+    "sahih_al_bukhari:4:165",
+    "sahih_al_bukhari:4:166",
+    "sahih_al_bukhari:4:167",
+    "sahih_al_bukhari:4:169",
+    "sahih_al_bukhari:4:173",
+    "sahih_al_bukhari:4:174",
+    "sahih_al_bukhari:4:176",
+    "sahih_al_bukhari:4:177",
+    "sahih_al_bukhari:4:179",
+    "sahih_al_bukhari:4:181",
+    "sahih_al_bukhari:4:183",
+    "sahih_al_bukhari:4:184",
+    "sahih_al_bukhari:4:186",
+    "sahih_al_bukhari:4:187",
+    "sahih_al_bukhari:4:189",
+    "sahih_al_bukhari:4:190",
+    "sahih_al_bukhari:4:191",
+    "sahih_al_bukhari:4:192",
+    "sahih_al_bukhari:4:195",
+    "sahih_al_bukhari:4:198",
+    "sahih_al_bukhari:4:199",
+    "sahih_al_bukhari:4:204",
+    "sahih_al_bukhari:4:205",
+    "sahih_al_bukhari:4:206",
+    "sahih_al_bukhari:4:208",
+    "sahih_al_bukhari:4:209",
+    "sahih_al_bukhari:4:214",
+    "sahih_al_bukhari:4:215",
+    "sahih_al_bukhari:4:216",
+    "sahih_al_bukhari:4:218",
+    "sahih_al_bukhari:4:222",
+    "sahih_al_bukhari:4:223",
+    "sahih_al_bukhari:4:227",
+    "sahih_al_bukhari:4:228",
+    "sahih_al_bukhari:4:230",
+    "sahih_al_bukhari:4:237",
+    "sahih_al_bukhari:4:238",
+    "sahih_al_bukhari:4:240",
+    "sahih_al_bukhari:4:244",
+    "sahih_al_bukhari:4:246",
+    "sahih_al_bukhari:4:247",
+    "sahih_al_bukhari:5:248",
+    "sahih_al_bukhari:5:249"
+  ],
+  "query_expectations": [
+    {
+      "query": "intention behind actions",
+      "expected_ids": [
+        "sahih_al_bukhari:2:55",
+        "sahih_al_bukhari:2:54",
+        "sahih_al_bukhari:2:26"
+      ],
+      "notes": "seeded from retrieval v0; requires human review"
+    },
+    {
+      "query": "kindness to parents",
+      "expected_ids": [
+        "sahih_al_bukhari:4:222",
+        "sahih_al_bukhari:4:174",
+        "sahih_al_bukhari:4:244"
+      ],
+      "notes": "seeded from retrieval v0; requires human review"
+    },
+    {
+      "query": "controlling anger",
+      "expected_ids": [
+        "sahih_al_bukhari:3:93",
+        "sahih_al_bukhari:3:92",
+        "sahih_al_bukhari:2:20"
+      ],
+      "notes": "seeded from retrieval v0; requires human review"
+    },
+    {
+      "query": "honest business",
+      "expected_ids": [
+        "sahih_al_bukhari:3:118",
+        "sahih_al_bukhari:1:7",
+        "sahih_al_bukhari:2:33"
+      ],
+      "notes": "seeded from retrieval v0; requires human review"
+    },
+    {
+      "query": "treatment of neighbors",
+      "expected_ids": [
+        "sahih_al_bukhari:3:127",
+        "sahih_al_bukhari:4:234",
+        "sahih_al_bukhari:2:17"
+      ],
+      "notes": "seeded from retrieval v0; requires human review"
+    },
+    {
+      "query": "seeking knowledge",
+      "expected_ids": [
+        "sahih_al_bukhari:3:122",
+        "sahih_al_bukhari:3:75",
+        "sahih_al_bukhari:3:120"
+      ],
+      "notes": "seeded from retrieval v0; requires human review"
+    },
+    {
+      "query": "virtue of prayer",
+      "expected_ids": [
+        "sahih_al_bukhari:4:135",
+        "sahih_al_bukhari:4:230",
+        "sahih_al_bukhari:4:208"
+      ],
+      "notes": "seeded from retrieval v0; requires human review"
+    },
+    {
+      "query": "charity and generosity",
+      "expected_ids": [
+        "sahih_al_bukhari:1:6",
+        "sahih_al_bukhari:2:25",
+        "sahih_al_bukhari:2:46"
+      ],
+      "notes": "seeded from retrieval v0; requires human review"
+    },
+    {
+      "query": "justice in leadership",
+      "expected_ids": [
+        "sahih_al_bukhari:2:32",
+        "sahih_al_bukhari:4:241",
+        "sahih_al_bukhari:4:196"
+      ],
+      "notes": "seeded from retrieval v0; requires human review"
+    },
+    {
+      "query": "patience in hardship",
+      "expected_ids": [
+        "sahih_al_bukhari:3:122",
+        "sahih_al_bukhari:4:241",
+        "sahih_al_bukhari:4:196"
+      ],
+      "notes": "seeded from retrieval v0; requires human review"
+    },
+    {
+      "query": "repentance after sin",
+      "expected_ids": [
+        "sahih_al_bukhari:3:121",
+        "sahih_al_bukhari:2:41",
+        "sahih_al_bukhari:4:160"
+      ],
+      "notes": "seeded from retrieval v0; requires human review"
+    },
+    {
+      "query": "rights of spouse",
+      "expected_ids": [
+        "sahih_al_bukhari:3:127",
+        "sahih_al_bukhari:4:234",
+        "sahih_al_bukhari:2:17"
+      ],
+      "notes": "seeded from retrieval v0; requires human review"
+    },
+    {
+      "query": "maintaining kinship ties",
+      "expected_ids": [
+        "sahih_al_bukhari:3:111",
+        "sahih_al_bukhari:2:12",
+        "sahih_al_bukhari:2:16"
+      ],
+      "notes": "seeded from retrieval v0; requires human review"
+    },
+    {
+      "query": "etiquette of speech",
+      "expected_ids": [
+        "sahih_al_bukhari:3:59",
+        "sahih_al_bukhari:1:4",
+        "sahih_al_bukhari:1:7"
+      ],
+      "notes": "seeded from retrieval v0; requires human review"
+    },
+    {
+      "query": "forgiveness and mercy",
+      "expected_ids": [
+        "sahih_al_bukhari:3:66",
+        "sahih_al_bukhari:3:118",
+        "sahih_al_bukhari:2:58"
+      ],
+      "notes": "seeded from retrieval v0; requires human review"
+    },
+    {
+      "query": "death and accountability",
+      "expected_ids": [
+        "sahih_al_bukhari:3:85",
+        "sahih_al_bukhari:3:100",
+        "sahih_al_bukhari:3:81"
+      ],
+      "notes": "seeded from retrieval v0; requires human review"
+    },
+    {
+      "query": "warning against lying",
+      "expected_ids": [
+        "sahih_al_bukhari:3:106",
+        "sahih_al_bukhari:3:107",
+        "sahih_al_bukhari:3:108"
+      ],
+      "notes": "seeded from retrieval v0; requires human review"
+    },
+    {
+      "query": "trust and amanah",
+      "expected_ids": [
+        "sahih_al_bukhari:2:33",
+        "sahih_al_bukhari:2:34",
+        "sahih_al_bukhari:4:247"
+      ],
+      "notes": "seeded from retrieval v0; requires human review"
+    },
+    {
+      "query": "gratitude to Allah",
+      "expected_ids": [
+        "sahih_al_bukhari:2:44",
+        "sahih_al_bukhari:4:193",
+        "sahih_al_bukhari:4:142"
+      ],
+      "notes": "seeded from retrieval v0; requires human review"
+    },
+    {
+      "query": "remembrance and supplication",
+      "expected_ids": [
+        "sahih_al_bukhari:4:211",
+        "sahih_al_bukhari:2:17",
+        "sahih_al_bukhari:5:250"
+      ],
+      "notes": "seeded from retrieval v0; requires human review"
+    },
+    {
+      "query": "pilgrimage guidance",
+      "expected_ids": [
+        "sahih_al_bukhari:2:8",
+        "sahih_al_bukhari:2:45",
+        "sahih_al_bukhari:3:83"
+      ],
+      "notes": "seeded from retrieval v0; requires human review"
+    },
+    {
+      "query": "fasting etiquette",
+      "expected_ids": [
+        "sahih_al_bukhari:2:46",
+        "sahih_al_bukhari:2:8",
+        "sahih_al_bukhari:2:37"
+      ],
+      "notes": "seeded from retrieval v0; requires human review"
+    },
+    {
+      "query": "debt repayment urgency",
+      "expected_ids": [],
+      "notes": "seeded from retrieval v0; requires human review"
+    },
+    {
+      "query": "fulfilling contracts",
+      "expected_ids": [],
+      "notes": "seeded from retrieval v0; requires human review"
+    },
+    {
+      "query": "teaching beneficial knowledge",
+      "expected_ids": [
+        "sahih_al_bukhari:3:75",
+        "sahih_al_bukhari:3:120",
+        "sahih_al_bukhari:3:68"
+      ],
+      "notes": "seeded from retrieval v0; requires human review"
+    },
+    {
+      "query": "prophetic character",
+      "expected_ids": [
+        "sahih_al_bukhari:2:30",
+        "sahih_al_bukhari:2:34"
+      ],
+      "notes": "seeded from retrieval v0; requires human review"
+    },
+    {
+      "query": "brotherhood in Islam",
+      "expected_ids": [
+        "sahih_al_bukhari:3:78",
+        "sahih_al_bukhari:3:74",
+        "sahih_al_bukhari:1:7"
+      ],
+      "notes": "seeded from retrieval v0; requires human review"
+    },
+    {
+      "query": "conflict reconciliation",
+      "expected_ids": [],
+      "notes": "seeded from retrieval v0; requires human review"
+    },
+    {
+      "query": "judgment and testimony",
+      "expected_ids": [
+        "sahih_al_bukhari:3:71",
+        "sahih_al_bukhari:4:211",
+        "sahih_al_bukhari:2:17"
+      ],
+      "notes": "seeded from retrieval v0; requires human review"
+    },
+    {
+      "query": "hellfire warning",
+      "expected_ids": [
+        "sahih_al_bukhari:3:107",
+        "sahih_al_bukhari:2:16",
+        "sahih_al_bukhari:2:21"
+      ],
+      "notes": "seeded from retrieval v0; requires human review"
+    }
+  ]
+}
