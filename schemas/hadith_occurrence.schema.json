@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/hadith_occurrence.schema.json",
+  "title": "HadithOccurrence",
+  "type": "object",
+  "required": [
+    "id",
+    "collection_id",
+    "edition_id",
+    "hadith_number",
+    "translation_en",
+    "source_metadata"
+  ],
+  "properties": {
+    "id": { "type": "string" },
+    "collection_id": { "type": "string" },
+    "edition_id": { "type": "string" },
+    "book_ref": { "type": ["string", "null"] },
+    "chapter_ref": { "type": ["string", "null"] },
+    "hadith_number": { "type": "string" },
+    "source_identifier": { "type": "string" },
+    "translation_en": { "type": "string" },
+    "matn_ar_original": { "type": ["string", "null"] },
+    "matn_ar_normalized": { "type": ["string", "null"] },
+    "reference_aliases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["numbering_system", "reference_value"],
+        "properties": {
+          "numbering_system": { "type": "string" },
+          "reference_value": { "type": "string" }
+        }
+      }
+    },
+    "grade_claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source", "source_locator"],
+        "properties": {
+          "grade": { "type": ["string", "null"] },
+          "grader": { "type": ["string", "null"] },
+          "source": { "type": "string" },
+          "source_locator": { "type": "string" },
+          "notes": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "source_metadata": {
+      "type": "object",
+      "required": ["retrieved_at", "api_source", "edition"],
+      "properties": {
+        "retrieved_at": { "type": "string" },
+        "api_source": { "type": "string" },
+        "edition": { "type": "string" }
+      }
+    }
+  }
+}
+

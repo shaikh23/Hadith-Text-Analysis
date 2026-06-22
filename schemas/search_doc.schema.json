@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "schemas/search_doc.schema.json",
+  "title": "HadithSearchDocument",
+  "type": "object",
+  "required": ["id", "reference", "translation", "themes", "grade_claims"],
+  "properties": {
+    "id": { "type": "string" },
+    "reference": { "type": "string" },
+    "arabic": { "type": ["string", "null"] },
+    "translation": { "type": "string" },
+    "themes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "role"],
+        "properties": {
+          "id": { "type": "string" },
+          "label": { "type": "string" },
+          "role": { "type": "string", "enum": ["primary", "secondary"] }
+        }
+      }
+    },
+    "grade_claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["attribution"],
+        "properties": {
+          "grade": { "type": ["string", "null"] },
+          "attribution": { "type": "string" }
+        }
+      }
+    },
+    "narrators_display": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "related_ids": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "search_terms": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}
+
