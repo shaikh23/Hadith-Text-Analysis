@@ -47,6 +47,36 @@
         }
       }
     },
+    "hadith_themes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "theme_id",
+          "label",
+          "role",
+          "confidence",
+          "evidence",
+          "method",
+          "method_version",
+          "review_status"
+        ],
+        "properties": {
+          "theme_id": { "type": "string" },
+          "label": { "type": "string" },
+          "role": { "type": "string", "enum": ["primary", "secondary"] },
+          "confidence": { "type": "number" },
+          "evidence": { "type": "string" },
+          "method": { "type": "string" },
+          "method_version": { "type": "string" },
+          "review_status": { "type": "string" },
+          "matched_keywords": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    },
     "source_metadata": {
       "type": "object",
       "required": ["retrieved_at", "api_source", "edition"],
@@ -58,4 +88,3 @@
     }
   }
 }
-

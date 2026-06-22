@@ -10,6 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
 from hadith_analysis.config import HadithAPIConfig
+from hadith_analysis.annotate import assign_theme_candidates
 from hadith_analysis.ingest import checksum, load_edition_and_info, normalize_occurrence, now_iso
 from hadith_analysis.search_docs import build_search_document
 
@@ -42,6 +43,8 @@ def main() -> None:
         )
         for record in hadiths
     ]
+    for occurrence in occurrences:
+        occurrence["hadith_themes"] = assign_theme_candidates(occurrence["translation_en"])
     search_docs = [build_search_document(occurrence) for occurrence in occurrences]
 
     write_jsonl(Path("data/interim/bukhari_eng_pilot.jsonl"), occurrences)

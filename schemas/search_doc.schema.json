@@ -17,7 +17,10 @@
         "properties": {
           "id": { "type": "string" },
           "label": { "type": "string" },
-          "role": { "type": "string", "enum": ["primary", "secondary"] }
+          "role": { "type": "string", "enum": ["primary", "secondary"] },
+          "confidence": { "type": "number" },
+          "evidence": { "type": "string" },
+          "review_status": { "type": "string" }
         }
       }
     },
@@ -46,4 +49,3 @@
     }
   }
 }
-
