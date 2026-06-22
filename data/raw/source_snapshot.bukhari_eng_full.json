@@ -1,0 +1,16 @@
+{
+  "retrieved_at": "2026-06-22T18:38:08.590424+00:00",
+  "collection_id": "sahih_al_bukhari",
+  "edition_id": "eng-bukhari",
+  "api_version": "1",
+  "dataset_name": "bukhari_eng_full",
+  "record_count": 7589,
+  "edition_checksum_sha256": "42b8db4fade7f47e5cd41e8dabe786e37a80042d80e58ff87a0d0541d50319b7",
+  "info_checksum_sha256": "3760ef44cd3b821a1839aa5bbb0f3d5e86fab9dc205b76ff60ed1c1da553c342",
+  "source_urls": {
+    "edition_min": "https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/eng-bukhari.min.json",
+    "edition_json": "https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/eng-bukhari.json",
+    "info_min": "https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/info.min.json",
+    "info_json": "https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/info.json"
+  }
+}
